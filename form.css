@@ -1,0 +1,41 @@
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: rgb(255, 199, 64);
+}
+#main {
+    background-color: rgba(255,255,255,0.8);
+    line-height: 1.5rem;
+    text-align: center;
+    height: 80vh;
+    border-radius: 15px;
+    margin: 2% 10%;
+    overflow: auto;
+}
+input[type="text"], input[type="number"] {
+    min-height: 1rem;
+    border-radius: 0.4rem;
+    border:1px solid #cccccc;
+  }
+nav li{
+    display: inline-block;
+    padding: 0 2rem;
+    font-size:1.5rem;
+}
+nav li a {
+    color: black;
+} 
+nav {
+    text-align: center;
+}
+.top {
+    text-align:center;
+    background-color: rgba(255,255,255,0.8);
+    margin: 2% 10%;
+}
+footer {
+    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+}

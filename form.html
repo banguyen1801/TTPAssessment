@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Pizza with Ba</title>
+        <link rel="stylesheet" type="text/css" href="form.css">
+    </head>
+    <body>
+        <!-- navigator -->
+        <div class="container">
+            <nav class="navigator">
+                <ul>
+                    <li><a href="main.html">Main</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- main page (with big picture) -->
+        <div class="top">
+            <h1>I love pizza, let's order some together!</h3>
+            <br>
+            <h2>My favorite is topping is mushrooms and my least favorite is onion.</h2>
+
+        </div>
+        
+        <section id="main">
+                <h3>Complete the Form -<br> Complete the order</h3>
+                <hr>
+                <!--Add your form below:-->
+                <form action="notAvailable.html" method="GET" >
+
+                    <label for="customerName">Your name please:</label>
+                    <input id="customerName" type="text" name="customerName" required placeholder="Jeff" minlength="3" maxlength="30">
+
+                    <br>
+
+                    <label for="topping">Topping :</label>
+                    <select id="topping" name="topping">
+                        <option value="pepperoni">Pepperoni</option>
+                        <option value="mushrooms">Mushrooms</option>
+                        <option value="onions">Onions</option>
+                        <option value="bacon">Bacon</option>
+                        <option value="extraChese">Extra Cheese</option>
+                        <option value="pineapple">Pineapple</option>
+
+                    </select>
+
+                    <br>
+
+                    <label for="size">Size</label>
+                    <select id="size" name="size" required>
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                        <option value="extraLarge">Extra Large</option>
+                    </select>
+
+                    <br>
+
+                    <label for="quantity">Quantity</label>
+                    <input id="quantity" name="quantity" type="number" required placeholder="69" min="1" max="100">
+                    
+                    <br>
+
+                    <label for="rating">Are you satisfied?</label>
+                    <input id="rating" name="rating" type="text" list="quote-choices" required >
+                        <datalist id="quote-choices">
+                            <option value="Best form ever!"></option>
+                            <option value="Best form ever!"></option>
+                            <option value="Best form ever!"></option>
+                            <option value="Best form ever!"></option>
+                        </datalist>
+
+                    <br>
+
+                    <input type="submit" value="Send my order!">
+                    
+                </form>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="copyright">
+                    &copy; Ba Nguyen 
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
